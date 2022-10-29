@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Fraunces');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-size: 0.875rem;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: Fraunces, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    line-height: 1.0;
+    margin: 10px 0px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    height: 450px;
+}
+
+.card-container img {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    vertical-align: middle;
+    height: 450px;
+    z-index: -1;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 430px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 35px;
+}
+
+#item-type {
+    letter-spacing: 0.3125rem;
+    text-transform: uppercase;
+}
+
+#item-description {
+    line-height: 1.6;
+    margin-bottom: 0%;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#new-price {
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size:xx-large;
+    padding-right: 20px;
+    margin: 22px 0px;
+}
+
+.add-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    height: 50px;
+    border-radius: 5px;
+}
+
+.add-button p {
+    padding-left: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
