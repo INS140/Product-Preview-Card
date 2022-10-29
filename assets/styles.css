@@ -86,6 +86,7 @@ h1 {
     background-color: hsl(158, 36%, 37%);
     height: 50px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .add-button p {
