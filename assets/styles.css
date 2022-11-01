@@ -7,10 +7,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-p {
+p, del {
     color: hsl(228, 12%, 48%);
     font-size: 0.875rem;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -48,12 +48,12 @@ h1 {
     padding: 10px 25px 20px;
 }
 
-#item-type {
+.item-type {
     letter-spacing: 0.3125rem;
     text-transform: uppercase;
 }
 
-#item-description {
+.item-description {
     line-height: 1.6;
     margin-bottom: 0%;
 }
@@ -64,7 +64,7 @@ h1 {
     align-items: center;
 }
 
-#new-price {
+.new-price {
     color: hsl(158, 36%, 37%);
     font-family: Fraunces, 'Times New Roman', Times, serif;
     font-weight: 700;
@@ -72,6 +72,16 @@ h1 {
     padding-right: 20px;
     margin: 22px 0px;
 }
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+    }
 
 .add-button {
     display: flex;
